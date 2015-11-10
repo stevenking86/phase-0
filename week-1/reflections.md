@@ -42,6 +42,41 @@ rm - used to remove files
 
 help - displays helpful information about a particular thing
 
-
 #1.4 Forking and Cloning Reflections
+
+Git and Github were a mental hurdle for me.  I knew nothing about them and was somewhat worried that I'd get caught up and have trouble.  In the end it was more simple than I thought and it went pretty smoothly! I learned that Git is not so scary.
+
+If I was to write an instructions for creating, forking, and cloning a repo it'd look like this:
+
+Log into your Github account.  
+
+1. Creating a Repo: 
+
+  - Click the '+' sign in the top right corner of your screen.  
+
+  - Select "Create New Repository".
+
+  - Fill out the items according to the needs of your project and click the green "Create Repository" button. You did it! 
+
+2. Forking:
+
+  - Find the repository you want to fork. 
+
+  - Look on the righthand side next to the name of their repo.  Click the fork button. 
+
+  - You'll get a selection of where you'd like the fork'd repo to go.  Select the appropriate place. 
+
+  - You'll be re-directed to your forked repo.  You did it!
+
+3. Cloning:
+
+  - Find the repository you want to clone. 
+
+  - Find "SSH Clone URL" on the right side of the page.  Copy that. 
+
+  - In your terminal make sure you're in the directory where you want the repo to end up.
+
+  - type 'git clone ' and the paste the url. 
+
+  - You did it!
 
