@@ -1,0 +1,82 @@
+html {
+  background-color: #ffffff
+}
+
+body {
+  color: #000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #FF0000;
+}
+
+#links {
+  -webkit-columns: 200px 2;
+  -moz-columns: 200px 2;
+  columns: 200px 2;
+  border-bottom: 1px solid black;
+}
+
+li {
+  margin-bottom: 2.5em;
+  margin-left: 5em ;
+  margin-right: 5em;
+}
+
+.describe {
+  color: #000080;
+  font-size: .7em;
+}
+
+header {
+  font-weight: bold;
+  text-align: center;
+  margin-top: .5em;
+  line-height: .3;
+  border-bottom: 1px solid black;
+}
+
+#title {
+  font-size: .75em;
+}
+
+.big {
+  font-size: 2em;
+}
+
+#address {
+  font-size: 15px;
+}
+
+#homepage {
+  font-size: 20px;
+}
+
+aside {
+  border-bottom: 1px solid black;
+  text-align: center;
+  line-height: .4;
+  font-size: .5em
+}
+
+div {
+  border-bottom: 1px solid black;
+}
+
+/* I really enjoyed my pairing session today. Tiffany and I spent quite a while on it, but I think it came out great!
+
+When linking to your CSS sheet, it's import to get the path right! That's the first challenge. Other than that, I suppose the syntax is important. In our link tag we included type, rel, and href
+
+We used quite a few tricks for positioning. The one that I was completely unfamiliar with was the column positioning. It was great to learn. We also used text-align, margins, and a few others.
+
+For style we used font-size, line-height, color, background-color, and tons more.
+
+We actually ended up modifying quite a bit of the HTML to include classes, ids and semantic tags. When we originally made those we probably didn't tag it up with CSS in mind. Almost all our sections that needed styling ended up with some sort of new tag.
+
+I think we actually had cleaner code than the real site! They did all of their styling in their HTML document which isn't the best practice anymore. One thing they did, that my pair wanted to do was organize everything with a table.  This may have been a good way to do things, but other than that I think ours is superior! We separated our styling from our HTML. We also used better semantic tags.
+
+There is definitely more we could do. We could make our horizontal lines have better spacing around them and we could make everything fit on the screen without scrolling. Other than that our page is looking pretty good.  */
