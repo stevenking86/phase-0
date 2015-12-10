@@ -20,9 +20,11 @@ def my_hash_finding_method(source, thing_to_find)
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-# find_all which is the same as select
-#to_s
-#include?
+# find_all which is the same as select - You can see that I used this thing for both of my programs. It's a nice way to iterate over an array or hash to search for something and to return an array or hash of what it finds. You ccan check ou the syntax I used.
+#to_s - Changes something into a string.
+#include? - Checks if something includes something. I know that's vague! It returns true if the object it's called upon contains the perameters described.
+
+# I really ended up using the same ideas for going through the ruby docs that was recommended in "Ruby Docs for Newbs" in Release 1 of this challenge. I figured out what I wanted Ruby to be able to do and then looked for things I thought might do it. And then I checked each one out and saw if it could work.
 
 # Person 2
 def my_array_modification_method!(source, thing_to_modify)
