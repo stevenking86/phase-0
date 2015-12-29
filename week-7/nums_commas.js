@@ -73,3 +73,26 @@ assert(
 
 
 // Reflection
+/*
+What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+
+It was definitely more of a challenge. We initially approached it
+differently just because we decided to try my pair's idea first. But
+when we refactored, we did it a similar way to how I completed the
+challenge in ruby.
+
+What did you learn about iterating over arrays in JavaScript?
+
+I learned it isn't too hard! Also, that it wasn't really necessary for
+this challenge.
+
+What was different about solving this problem in JavaScript?
+
+Obviously all the syntax was different. We had to use different
+methods.
+
+What built-in methods did you find to incorporate in your refactored solution?
+
+We used toString, split, splice, and join.
+
+*/
