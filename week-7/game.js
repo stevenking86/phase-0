@@ -190,6 +190,9 @@ my logic work easier in thi schallenge.
 Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
 How can you access and manipulate properties of objects?
 
+I learned how to get a random item from an array in javascript. This
+is much more complicated than doing so in ruby!
+
 The greatest thing I learned was something that could probably help
 me in ruby as well. When refactoring I learned how to return multiple
 variables from a function. It completely changed how my program worked. Technically I learned this when I was frustrated midway
