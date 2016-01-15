@@ -1,0 +1,105 @@
+# OO Basics: Student
+
+
+# I worked on this challenge [by myself, with: ].
+# This challenge took me [#] hours.
+
+
+# Pseudocode
+# Initialize five new students
+# push student object into array data structure
+#The first Student should be named "Alex" with scores [100,100,100,0,100]
+
+#A for >=90%, B for >=80%, C for >= 70%, D for >= 60% and F for < 60%
+
+# Initial Solution
+
+class Student
+  attr_accessor :scores, :first_name
+
+  def initialize(scores,first_name)   #Use named arguments!
+    @scores = scores
+    @first_name = first_name
+  end
+  def average
+    sum= @scores.inject{|sum,x| sum + x }
+    @avg= sum / @scores.length
+  end
+  def letter_grade
+    case @avg
+    when 90..100
+      "A"
+    when 80..89
+       "B"
+    when 70..79
+      "C"
+    when 60..69
+      "D"
+    else
+     "F"
+    end
+  end
+end
+
+alex = Student.new([100,100,100,0,100],"Alex")
+tom = Student.new([80],"Tom")
+jerry = Student.new([75],"Jerry")
+bruce = Student.new([85,90],"Bruce")
+alice =Student.new([85,95],"Alice")
+
+students = [alex,tom,jerry,bruce,alice]
+
+def linear_search(group,name)
+  group.each do |x|
+    if x.first_name == name
+      return group.index(x)
+    else
+      return -1
+    end
+  end
+  end
+
+# def binary_search(group,name)
+#   group.bsearch do {|x|
+#     if x.first_name == name
+#       return group.index(x)
+#     else
+#       return -1
+#     end
+# end
+
+
+
+
+# Refactored Solution
+
+
+
+
+
+
+# DRIVER TESTS GO BELOW THIS LINE
+# Initial Tests:
+
+p students[0].first_name == "Alex"
+p students[0].scores.length == 5
+p students[0].scores[0] == students[0].scores[4]
+p students[0].scores[3] == 0
+
+
+# Additional Tests 1:
+
+p students[0].average == 80
+p students[0].letter_grade == 'B'
+
+# Additional Tests 2:
+
+p linear_search(students, "Alex") == 0
+p linear_search(students, "NOT A STUDENT") == -1
+
+
+# p binary_search(students,"Alex") == 0
+# p binary_search(students, "NOT A STUDENT") == -1
+
+
+# Reflection
